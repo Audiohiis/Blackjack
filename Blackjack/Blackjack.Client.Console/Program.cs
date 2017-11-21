@@ -12,13 +12,13 @@
 
             Console.WriteLine("Welcome to the game of Blackjack");
 
-            var c4 = new Card("4", 'C', 4);
+            var c4 = new Card("4", Suite.Club, 4);
             c4.Hidden = false;
-            var h6 = new Card("6", 'H', 6);
+            var h6 = new Card("6", Suite.Heart, 6);
             h6.Hidden = false;
-            var s8 = new Card("8", 'S', 8);
+            var s8 = new Card("8", Suite.Spade, 8);
             s8.Hidden = false;
-            var dJ = new Card("J", 'D', 10);
+            var dJ = new Card("J", Suite.Diamond, 10);
             dJ.Hidden = false;
 
             Console.WriteLine($"You have been dealt: { GetCardDescription(c4) }, { GetCardDescription(h6) }");
@@ -29,9 +29,9 @@
             Console.WriteLine("Choose: 2 - To finish");
             Console.WriteLine("I choose: 1");
 
-            var s4 = new Card("4", 'S', 4);
+            var s4 = new Card("4", Suite.Spade, 4);
             s4.Hidden = false;
-            var hI = new Card("I", 'H', 10);
+            var hI = new Card("I", Suite.Heart, 10);
             hI.Hidden = false;
 
             Console.WriteLine($"You have been dealt: { GetCardDescription(s4) }");
