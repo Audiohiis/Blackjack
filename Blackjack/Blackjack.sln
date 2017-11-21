@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.Core", "Blackjack.Core\Blackjack.Core.csproj", "{99D8EC31-29CF-4207-AFA9-A44E343D9CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.Client.Console", "Blackjack.Client.Console\Blackjack.Client.Console.csproj", "{0E22D7BF-B489-4B0F-BD80-6E161A410AC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99D8EC31-29CF-4207-AFA9-A44E343D9CF5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99D8EC31-29CF-4207-AFA9-A44E343D9CF5}.Debug|x86.Build.0 = Debug|Any CPU
+		{99D8EC31-29CF-4207-AFA9-A44E343D9CF5}.Release|x86.ActiveCfg = Release|Any CPU
+		{99D8EC31-29CF-4207-AFA9-A44E343D9CF5}.Release|x86.Build.0 = Release|Any CPU
+		{0E22D7BF-B489-4B0F-BD80-6E161A410AC9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E22D7BF-B489-4B0F-BD80-6E161A410AC9}.Debug|x86.Build.0 = Debug|Any CPU
+		{0E22D7BF-B489-4B0F-BD80-6E161A410AC9}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E22D7BF-B489-4B0F-BD80-6E161A410AC9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
